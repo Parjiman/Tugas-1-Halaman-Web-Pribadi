@@ -1,35 +1,44 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ibnu Farij Web</title>
-</head>
-<body>
-    <nav>
-        <a href="halaman.html">Home</a>
-        <a href="cv-ibnu.pdf">Download CV</a>
-        <a href="contact.html">Contact</a>
-        <a href="about.html">About Me</a>
+  </head>
+  <body>
+    <nav style="text-align: center; position: relative; padding: 8px">
+      <a style="text-decoration: none" href="halaman.html">Home | </a>
+      <a style="text-decoration: none" href="cv-ibnu.pdf">Download CV |</a>
+      <a style="text-decoration: none" href="contact.html">Contact |</a>
+      <a style="text-decoration: none" href="about.html">About Me |</a>
     </nav>
 
-    <hr>
+    <hr />
     <div>
-        <h1>Contact Me</h1>
-        <form>
-            <label for="email">Email</label><br />
-            <input type="email" name="email" placeholder="alamat email"/>
-            <br />
-            <label for="message">Pesan</label><br />
-            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
-            <br />
-            <br />
-            <input type="submit" value="Kirim" />
-        </form>
+      <h1 style="text-align: center">Contact Me</h1>
+      <form style="padding: 8px">
+        <div class="email" style="padding: 8px">
+          <label>Email</label><br />
+          <input type="email" name="email" placeholder="isi email.." />
+        </div>
+
+        <div class="pesan" style="padding: 8px">
+          <label>Pesan</label>
+          <textarea
+            name="message"
+            placeholder="Tulis pesan anda..."
+            rows="4"
+            cols="80"
+          ></textarea>
+        </div>
+        <div class="button" style="padding: 8px">
+          <button type="submit">Kirim</button>
+        </div>
+      </form>
     </div>
 
-    <hr>
-    <footer style="text-align: center;">
-        <p>Copyright &copy; 2023 Ibnu Farij.</p>
+    <hr />
+    <footer style="text-align: center">
+      <p>Copyright &copy; 2023 Ibnu Farij.</p>
     </footer>
-</body>
+  </body>
 </html>
